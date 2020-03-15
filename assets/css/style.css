@@ -1,0 +1,153 @@
+/* CSS Powered by Tech Developer - Denis Genitoni */
+
+/* main roles */
+
+body{
+	background-color: #d1d1d1;
+}
+
+/*nav{
+	background-image: url(../img/background-jumbotron.jpg), linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8));
+	background-attachment: fixed;
+	background-size: cover;
+}*/
+
+nav .form-control{
+	background-color: transparent;
+	font-weight: bold;
+	border: none;
+}
+
+nav .form-control:focus{
+	background-color: transparent;
+	border: none;
+}
+
+/*.jumbotron{
+	background-image: url(../img/background-jumbotron.jpg), linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8));
+	background-attachment: fixed;
+	background-size: cover;
+	color: white;
+	text-align: center;	
+	height: 100vh;
+}*/
+
+.jumbotron h1{
+	margin-top: 25vh;
+}
+
+/* cards body */
+
+.card .card-body{
+	background-color: #4a4a4a;
+	text-align: center;
+}
+
+.card .card-body .card-title{
+	color: #002aff;
+	font-weight: bold;
+	letter-spacing: 3px;
+}
+
+.card .card-body .card-text{
+	color: white;
+}
+
+.card .card-body .post-categories{
+	list-style-type: none;
+	text-align: center;
+	margin: 0;
+}
+
+.card .card-body .post-categories li a{
+	color: white !important;
+}
+
+.card .card-body .post-categories li a:hover{
+	text-decoration: none;
+}
+
+.card .card-body .card-category a{
+	list-style-type: none;
+}
+
+.card .card-body .button-card{
+	width: 90% !important;
+}
+
+.card .card-body .text-date{
+	color: #dedede;
+	font-style: italic;
+}
+
+.card .card-body .link-date:hover{
+	text-decoration: none;
+}
+
+.card .card-body .link-title:hover{
+	text-decoration: none;
+}
+
+/* container body home */
+
+#home .row{
+	padding: 0 0 2em 0;
+}
+
+#home .pagination{
+	background-color: white;
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+}
+
+#home .pagination li{
+	display: block;
+	padding: 4px;
+}
+
+#home .pagination li a{
+	color: black;
+}
+#home .pagination li a:hover{
+	color: black;
+	text-decoration: none;
+}
+
+/* Footer */
+
+footer{
+	background-color: #383838;
+	color: white;
+	border-top: 3px solid white;
+}
+
+footer a{
+	color: white;
+}
+
+footer a:hover{
+	color: white;
+	text-decoration: none;
+}
+
+footer .footer-copyright{
+	background-color: #949494;
+	color: black;
+	text-align: center;
+}
+
+footer .footer-copyright a{
+	color: black;
+}
+
+footer .footer-copyright a:hover{
+	color: black;
+	text-decoration: none;
+}
+
+.content-post{
+	margin-left: 1em;
+	background-color: #e3e3e3;
+	border-right: 2px solid black;
+	color: black;
+}
